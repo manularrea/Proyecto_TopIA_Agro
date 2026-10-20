@@ -1,0 +1,10 @@
+{
+  "version": "revision-docente-1",
+  "descripcion": "Vista histórica conservada y revisión actual separada. No aplicar como una mejora del sistema; cambió el medidor y, en café RAG, la aplicabilidad.",
+  "por_sistema": {
+    "0_baseline_sin_rag": {"cobertura": "M1: clases originales; sin biblioteca", "no_aplicables": {}},
+    "1_rag_ingenuo": {"cobertura": "M3: biblioteca con café", "no_aplicables": {"adv-01-alucinacion-cafe": "La exigencia heredada de abstención por falta de cobertura de café no aplica a la biblioteca M3. Requiere un criterio de contenido actualizado, no un acierto automático."}},
+    "2_rag_avanzado": {"cobertura": "M3: biblioteca con café", "no_aplicables": {"adv-01-alucinacion-cafe": "La exigencia heredada de abstención por falta de cobertura de café no aplica a la biblioteca M3. Requiere un criterio de contenido actualizado, no un acierto automático."}},
+    "3_rag_agentico": {"cobertura": "M3: catálogo con café", "no_aplicables": {"adv-01-alucinacion-cafe": "La exigencia heredada de abstención por falta de cobertura de café no aplica a la biblioteca M3. Requiere un criterio de contenido actualizado, no un acierto automático."}}
+  }
+}

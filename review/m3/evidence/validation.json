@@ -1,0 +1,25 @@
+{
+  "base_commit": "7fe531f2a4250aaf0b2d537987d92a45c1671fec",
+  "expected_notebook_blob": "635893ad876792da07f8d149bf50d0dd8c51cb9b",
+  "python": "3.13.5",
+  "regression_tests": 45,
+  "characterization_tests_rerun": 30,
+  "source_mode": "fixture parcial transcrito de funciones leídas por conector",
+  "complete_notebook_blob_verified_locally": false,
+  "complete_pipeline_executed": false,
+  "api_calls": false,
+  "new_model_runs": false,
+  "matching_published_blobs": {
+    "review/m3/sugerencias/evaluation_review.py": "da3657e5c2c290bcefa7e81436e0f0dc3d79b065",
+    "review/m3/sugerencias/source_loader.py": "6da06f330a6b9b8d7a45d101e3c1c6ab5ab805e2",
+    "review/m3/sugerencias/rescore_saved.py": "beafd16b6a3b70fbe050f0193dfdf149364b17be",
+    "review/m3/sugerencias/politica_eval.json": "3deb466823c4b824667de467c8685812ee245c45",
+    "review/m3/sugerencias/tools_review.py": "8a6946a793b43541c63a4ff5a3f91ee26172cf45",
+    "review/m3/sugerencias/prepare_workcopy.py": "1b84cbd950d1d5cee9c8efb37ea1b4f705217df4",
+    "review/m3/tests/test_revision.py": "debda02c1e059beece566de35f6a9ac0caf16779"
+  },
+  "pending": [
+    "Suite sobre el notebook íntegro con hash verificado",
+    "Integración en dependencias exactas y lote pequeño del equipo"
+  ]
+}
