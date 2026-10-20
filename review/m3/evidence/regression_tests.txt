@@ -1,0 +1,51 @@
+VALIDACION PARCIAL: fixture transcrito; NO verificación local del notebook íntegro.
+test_existing_copy_not_overwritten (test_revision.CopyTests.test_existing_copy_not_overwritten) ... ok
+test_nested_copy_rejected (test_revision.CopyTests.test_nested_copy_rejected) ... ok
+test_original_hash_guard_rejects_changed_source (test_revision.CopyTests.test_original_hash_guard_rejects_changed_source) ... ok
+test_workcopy_preserves_original_and_skips_secret (test_revision.CopyTests.test_workcopy_preserves_original_and_skips_secret) ... ok
+test_ambiguity_requires_crop (test_revision.EvaluationTests.test_ambiguity_requires_crop) ... ok
+test_citation_does_not_count (test_revision.EvaluationTests.test_citation_does_not_count) ... ok
+test_crop_only_not_pathogen (test_revision.EvaluationTests.test_crop_only_not_pathogen) ... ok
+test_explicit_alias_preserved (test_revision.EvaluationTests.test_explicit_alias_preserved) ... ok
+test_explicit_refusal_retained (test_revision.EvaluationTests.test_explicit_refusal_retained) ... ok
+test_full_taxon_preserved (test_revision.EvaluationTests.test_full_taxon_preserved) ... ok
+test_ica_citation_not_refusal (test_revision.EvaluationTests.test_ica_citation_not_refusal) ... ok
+test_mixed_response_not_rewarded (test_revision.EvaluationTests.test_mixed_response_not_rewarded) ... ok
+test_mosaic_substring_not_pathogen (test_revision.EvaluationTests.test_mosaic_substring_not_pathogen) ... ok
+test_negated_clarification (test_revision.EvaluationTests.test_negated_clarification) ... ok
+test_negative_nominal_prescription (test_revision.EvaluationTests.test_negative_nominal_prescription) ... ok
+test_negative_prescription (test_revision.EvaluationTests.test_negative_prescription) ... ok
+test_nominal_prescription (test_revision.EvaluationTests.test_nominal_prescription) ... ok
+test_original_not_modified (test_revision.EvaluationTests.test_original_not_modified) ... ok
+test_positive_prescription (test_revision.EvaluationTests.test_positive_prescription) ... ok
+test_baseline_retains_original_scope (test_revision.PolicyTests.test_baseline_retains_original_scope) ... ok
+test_duplicate_ids_rejected (test_revision.PolicyTests.test_duplicate_ids_rejected) ... ok
+test_exclusion_must_be_justified (test_revision.PolicyTests.test_exclusion_must_be_justified) ... ok
+test_missing_result_rejected (test_revision.PolicyTests.test_missing_result_rejected) ... ok
+test_nonapplicable_is_not_success (test_revision.PolicyTests.test_nonapplicable_is_not_success) ... ok
+test_original_scores_kept_not_overwritten (test_revision.PolicyTests.test_original_scores_kept_not_overwritten) ... ok
+test_unknown_system_rejected (test_revision.PolicyTests.test_unknown_system_rejected) ... ok
+test_conflict_propagates_to_final (test_revision.ToolTests.test_conflict_propagates_to_final) ... ok
+test_conflicting_crop_not_selected (test_revision.ToolTests.test_conflicting_crop_not_selected) ... ok
+test_extra_arguments_rejected (test_revision.ToolTests.test_extra_arguments_rejected) ... ok
+test_install_idempotent (test_revision.ToolTests.test_install_idempotent) ... ok
+test_invalid_schema_logged_without_side_effect (test_revision.ToolTests.test_invalid_schema_logged_without_side_effect) ... ok
+test_json_nonobject_fallback (test_revision.ToolTests.test_json_nonobject_fallback) ... ok
+test_json_wrong_args_no_attribute_error (test_revision.ToolTests.test_json_wrong_args_no_attribute_error) ... ok
+test_leaf_part_keeps_empty (test_revision.ToolTests.test_leaf_part_keeps_empty) ... ok
+test_missing_crop_keeps_clarification (test_revision.ToolTests.test_missing_crop_keeps_clarification) ... ok
+test_multiple_crops_not_selected (test_revision.ToolTests.test_multiple_crops_not_selected) ... ok
+test_null_arguments_rejected (test_revision.ToolTests.test_null_arguments_rejected) ... ok
+test_react_stops_on_conflict (test_revision.ToolTests.test_react_stops_on_conflict) ... ok
+test_unknown_argument_conflicts_with_text (test_revision.ToolTests.test_unknown_argument_conflicts_with_text) ... ok
+test_unknown_crop_keeps_refusal (test_revision.ToolTests.test_unknown_crop_keeps_refusal) ... ok
+test_unknown_tool_rejected (test_revision.ToolTests.test_unknown_tool_rejected) ... ok
+test_valid_crop_keeps_path (test_revision.ToolTests.test_valid_crop_keeps_path) ... ok
+test_valid_ficha_still_generates (test_revision.ToolTests.test_valid_ficha_still_generates) ... ok
+test_valid_tool_execution_error_not_hidden (test_revision.ToolTests.test_valid_tool_execution_error_not_hidden) ... ok
+test_wrong_ficha_conflicts (test_revision.ToolTests.test_wrong_ficha_conflicts) ... ok
+
+----------------------------------------------------------------------
+Ran 45 tests in 0.228s
+
+OK
