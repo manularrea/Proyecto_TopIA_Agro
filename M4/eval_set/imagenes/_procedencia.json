@@ -1,0 +1,32 @@
+{
+ "img_01.jpg": {
+  "clase": "Potato___Late_blight",
+  "origen": "01a8cc9f-074a-4866-87c8-bb5a9e3895b4___RS_LB 2968.JPG",
+  "transformacion": null
+ },
+ "img_02.jpg": {
+  "clase": "Tomato___Leaf_Mold",
+  "origen": "036d12b0-1e97-4975-bd80-a8a3c48588e7___Crnl_L.Mold 6500.JPG",
+  "transformacion": null
+ },
+ "img_03.jpg": {
+  "clase": "Corn_(maize)___Common_rust_",
+  "origen": "RS_Rust 1570.JPG",
+  "transformacion": null
+ },
+ "img_04.jpg": {
+  "clase": "Grape___Esca_(Black_Measles)",
+  "origen": "01c74b8d-1113-47c0-86a3-6ceea27853c0___FAM_B.Msls 4113.JPG",
+  "transformacion": null
+ },
+ "img_05.jpg": {
+  "clase": "Tomato___healthy",
+  "origen": "0172e56c-8bb8-4e75-8ac7-509df81393e8___RS_HL 0580.JPG",
+  "transformacion": null
+ },
+ "img_07.jpg": {
+  "clase": "Potato___Late_blight",
+  "origen": "08ddae0c-5328-4183-b16e-c980f197e471___RS_LB 2845.JPG",
+  "transformacion": "GaussianBlur(r=3.2) + brillo x0.38 + contraste x0.70"
+ }
+}

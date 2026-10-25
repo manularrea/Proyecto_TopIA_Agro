@@ -1,0 +1,14 @@
+| pregunta              | fila                                                      | M3 (sin foto, misma pregunta)   | M4 (con foto)   | lectura                                                                |
+|:----------------------|:----------------------------------------------------------|:--------------------------------|:----------------|:-----------------------------------------------------------------------|
+| ¿Mejoró lo nuevo?     | casos con imagen · gold (4) · aciertos de dominio         | 2/4                             | 2/4             | control limpio: misma pregunta y mismo sistema, sólo cambia la foto    |
+|                       | casos con imagen · gold (4) · nota del criterio declarado | 0.25                            | 1.0             | exacto = la etiqueta top-1 es la correcta; campos = fracción de campos |
+|                       | clasificador solo · top-1 sobre las 4 gold                | —                               | 3/4             | sin LLM de por medio: ¿la foto identifica la clase?                    |
+|                       | patógeno nombrado por el MODELO (sin el encabezado)       | 2/4                             | 3/4             | separa lo que aporta la ficha correcta de lo que aporta el encabezado  |
+|                       | adversariales con imagen (3) · válvula                    | 0/3                             | 2/3             | ¿se negó cuando debía: hoja sana, café, foto ilegible?                 |
+| ¿No empeoró lo viejo? | casos de texto de M3 · gold · aciertos de dominio         | 9/22                            | 12/22           | el camino sin imagen es el código de M3: debe dar lo mismo             |
+|                       | casos de texto de M3 · adversariales · se abstuvo         | 3/5                             | 3/5             | idem                                                                   |
+|                       | casos de texto de M3 · similitud de embeddings (gold)     | 0.761                           | 0.731           | idem                                                                   |
+| ¿Cuánto cuesta?       | latencia media · casos con imagen                         | 22.94                           | 16.25           | incluye el clasificador de punta a punta                               |
+|                       | de eso, el componente visual                              | 0.0                             | 0.153           | CLIP ViT-B/32: el costo de ver es ~0 frente al de redactar             |
+|                       | latencia media · casos de texto                           | 36.725                          | 36.96           | sin foto no hay sobrecosto: es el mismo camino                         |
+| Peor caso             | img-05-tomate-sano-premisa-falsa                          | —                               | 0.0             | analizado abajo, en §9                                                 |
