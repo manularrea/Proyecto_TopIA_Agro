@@ -1,0 +1,90 @@
+{
+ "base": "9dc476984a5f2e782ccc6cba2f15f7f1483c4267",
+ "entorno_pruebas": {
+  "so": "macOS-26.6.2-arm64-arm-64bit",
+  "python": "3.12.12",
+  "pandas": "3.1.0"
+ },
+ "pruebas_unitarias": [
+  "Ran 17 tests in 0.018s",
+  "",
+  "OK"
+ ],
+ "cadena_real_mps": {
+  "descripcion": "Celdas de M4 y notebookM3 §0–§14 sin cambios salvo device cuda→mps; Qwen2.5-0.5B+LoRA y Qwen2.5-1.5B (revisiones del equipo); sin juez por API.",
+  "huellas_celdas_m4": {
+   "4": "bc709296673c",
+   "6": "c4a9f56cd248",
+   "7": "955a149e6363",
+   "10": "f11d7641dcd4",
+   "13": "8055f41d2626",
+   "14": "eadb35680da6",
+   "15": "9b2fa394dd0e",
+   "18": "3b0d4816695c",
+   "19": "9cba4fd152b4",
+   "20": "c4ef170eef83",
+   "21": "fccbdb7f09a4",
+   "26": "c01ce6d4896d",
+   "29": "29dc7a82c9b5",
+   "30": "c094eed86fa1",
+   "31": "d3729247e12d",
+   "33": "e7964ce73b93"
+  },
+  "casos": [
+   {
+    "caso": "img-02",
+    "ruta": "valvula",
+    "etiqueta_pred": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+    "receta_m4_detector": true,
+    "valor_criterio_valvula_equipo": 0.667,
+    "filtro": null,
+    "latencia_s": 7.77
+   },
+   {
+    "caso": "img-05",
+    "ruta": "vision",
+    "etiqueta_pred": "Tomato___healthy",
+    "receta_m4_detector": true,
+    "valor_criterio_valvula_equipo": 0.0,
+    "filtro": null,
+    "latencia_s": 1.96
+   },
+   {
+    "caso": "img-05+filtro",
+    "ruta": "vision",
+    "etiqueta_pred": "Tomato___healthy",
+    "receta_m4_detector": false,
+    "valor_criterio_valvula_equipo": 1.0,
+    "filtro": "prescripcion_bloqueada_sano",
+    "latencia_s": 1.96
+   },
+   {
+    "caso": "img-06",
+    "ruta": "valvula",
+    "etiqueta_pred": "Potato___Early_blight",
+    "receta_m4_detector": true,
+    "valor_criterio_valvula_equipo": 1.0,
+    "filtro": null,
+    "latencia_s": 4.8
+   },
+   {
+    "caso": "img-07",
+    "ruta": "valvula",
+    "etiqueta_pred": "Tomato___Leaf_Mold",
+    "receta_m4_detector": false,
+    "valor_criterio_valvula_equipo": 1.0,
+    "filtro": null,
+    "latencia_s": 0.68
+   },
+   {
+    "caso": "img-01-recorte50",
+    "ruta": "valvula",
+    "etiqueta_pred": "Potato___Late_blight",
+    "receta_m4_detector": false,
+    "valor_criterio_valvula_equipo": 1.0,
+    "filtro": null,
+    "latencia_s": 4.99
+   }
+  ]
+ }
+}

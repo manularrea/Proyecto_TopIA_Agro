@@ -265,4 +265,4 @@ corrida demostró que **hay que fijar también el *build* de `torch`**: ver §9.
 - Planificador y juez: https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct
 - Dataset de imágenes: https://github.com/spmohanty/plantvillage-dataset (CC0)
 - Alternativa descartada: Wang et al., *Qwen2-VL* (2024) — https://arxiv.org/abs/2409.12191
-- Labs del curso usados como referencia: [`../ejemplos/`](../ejemplos/) (S11, S12, S13)
+- Labs del curso usados como referencia: S11, S12 y S13 (repositorio del curso; no se copiaron aquí). Los labs de M3 están en [`ejemplosM3/`](ejemplosM3/)
